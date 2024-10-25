@@ -1,0 +1,71 @@
+/* General Body Styles */
+body {
+    background-color: #f8f9fa; /* Light background for better contrast */
+    font-family: 'Arial', sans-serif; /* Clean font for readability */
+}
+
+/* Container Styles */
+.container {
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    background-color: #ffffff; /* White background for the container */
+}
+
+/* Heading Styles */
+h2 {
+    color: #007bff; /* Bootstrap primary color */
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center; /* Centered heading */
+}
+
+/* Alert Styles */
+.alert {
+    border-radius: 5px; /* Rounded corners */
+    margin-bottom: 20px; /* Space below the alert */
+    padding: 15px; /* More padding for comfort */
+}
+
+.alert h4 {
+    margin: 0; /* Remove default margin */
+    font-weight: bold; /* Make alert heading bold */
+}
+
+/* Weather Summary Card Styles */
+.col-md-4 {
+    padding: 15px; /* Padding inside each column */
+}
+
+.weather-summary {
+    border: 1px solid #dee2e6; /* Light border for weather summary */
+    border-radius: 8px; /* Rounded corners */
+    padding: 15px; /* Padding inside summary */
+    background-color: #f1f1f1; /* Light gray background for summaries */
+    transition: transform 0.2s; /* Smooth scale effect on hover */
+}
+
+.weather-summary:hover {
+    transform: scale(1.05); /* Scale up on hover */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Shadow effect on hover */
+}
+
+/* Settings Styles */
+.settings {
+    margin-bottom: 20px; /* Space below settings */
+}
+
+.settings select {
+    margin-top: 10px; /* Space above select elements */
+    border-radius: 4px; /* Slight rounding of select borders */
+    padding: 10px; /* Padding inside selects */
+    border: 1px solid #ced4da; /* Border color */
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .weather-summary {
+        margin-bottom: 20px; /* Space between cards on smaller screens */
+    }
+}
